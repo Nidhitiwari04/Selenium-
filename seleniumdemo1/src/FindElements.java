@@ -21,6 +21,7 @@ public class FindElements
 		{
 		String link= objCurrentLink.getText();
 		System.out.println(link);
+		driver.close();
 		}
 }
 }
